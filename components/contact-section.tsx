@@ -56,7 +56,7 @@ export function ContactSection() {
                 className="h-14 text-lg font-semibold border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300 bg-transparent"
               >
                 <Link href="https://www.drupal.org/u/vasantha-deepika" target="_blank" rel="noopener noreferrer">
-                  <Dribbble className="h-6 w-6 mr-3" />  Drupal
+                  Drupal
                 </Link>
               </Button>
             </div>

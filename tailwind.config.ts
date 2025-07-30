@@ -34,8 +34,8 @@ const config: Config = {
           foreground: "hsl(0 0% 100%)",
         },
         accent: {
-          DEFAULT: "hsl(40 100% 60%)", // Warm Orange/Yellow
-          foreground: "hsl(222.2 84% 4.9%)",
+          DEFAULT: "hsl(220 100% 60%)", // Warm Orange/Yellow
+          foreground: "hsl(0 0% 100%)",
         },
         muted: {
           DEFAULT: "hsl(210 40% 96.1%)",
