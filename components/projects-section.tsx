@@ -3,42 +3,88 @@ import { ProjectCard } from "@/components/project-card"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce Platform",
+      title: "Bounty42 - Decoupled Drupal Platform",
       description:
-        "A full-stack e-commerce application with user authentication, product listings, shopping cart, and checkout functionality.",
+        "Developed a decoupled web application using Next.js and Drupal, integrating GraphQL for dynamic content retrieval and improved performance.",
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "PostgreSQL"],
+      tags: ["Next.js", "GraphQL", "Drupal", "Tailwind CSS", "Decoupled Architecture"],
     },
     {
-      title: "Task Management App",
+      title: "Nicotinell Websites",
       description:
-        "An intuitive task management tool with drag-and-drop functionality, real-time updates, and user collaboration features.",
+        "Built and maintained six responsive Drupal websites for Nicotinell, offering comprehensive resources for smoking cessation and NRT product details.",
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["React", "Redux", "Node.js", "Express", "MongoDB", "Socket.io"],
+      tags: ["Drupal", "Twig", "Tailwind CSS", "Accessibility", "Responsive Design"],
     },
     {
-      title: "Personal Blog & CMS",
+      title: "NASDAQ Local Navigation",
       description:
-        "A custom blog platform with a headless CMS integration for easy content management and dynamic routing.",
+        "Enhanced NASDAQ's digital experience by implementing a flexible Bento menu navigation to support various business requirements.",
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Next.js", "GraphQL", "Strapi", "Tailwind CSS", "Vercel"],
+      tags: ["Drupal", "JavaScript", "Atomic Design", "Accessibility", "Site Studio"],
     },
     {
-      title: "Weather Dashboard",
+      title: "Apex Tools E-commerce Platform",
       description:
-        "A responsive weather application displaying current conditions and forecasts using a third-party API.",
+        "Built a scalable multi-brand e-commerce system for tools like Weller, Cleco, and Gearwrench with customized product categories and role-based controls.",
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["React", "API Integration", "CSS Modules", "Responsive Design"],
+      tags: ["Drupal", "Twig", "SCSS", "Commerce", "Role-Based Access"],
     },
+    {
+      title: "ICTSI Digital Platform",
+      description:
+        "Developed a responsive digital platform for ICTSI to manage and showcase global terminal operations, optimized for performance and usability.",
+      imageUrl: "/placeholder.svg?height=300&width=500",
+      demoLink: "#",
+      githubLink: "#",
+      tags: ["Drupal", "Performance Optimization", "JavaScript", "Responsive UI"],
+    },
+    {
+      title: "CARIN Business Media Site",
+      description:
+        "Contributed to the frontend development of a digital and print media platform delivering up-to-date business news.",
+      imageUrl: "/placeholder.svg?height=300&width=500",
+      demoLink: "#",
+      githubLink: "#",
+      tags: ["Drupal", "Twig", "Theming", "Responsive Design"],
+    },
+    {
+      title: "Devanga Kula Matrimony",
+      description:
+        "Built a culturally tailored matchmaking platform with multilingual support and modern user interface for Kannada Devangar communities.",
+      imageUrl: "/placeholder.svg?height=300&width=500",
+      demoLink: "#",
+      githubLink: "#",
+      tags: ["Drupal", "Custom Theme", "Multilingual", "Responsive UI"],
+    },
+    {
+      title: "Sinter Machines",
+      description:
+        "Developed a responsive corporate site for Sinter Machines to highlight its full-cycle production line in India’s manufacturing industry.",
+      imageUrl: "/placeholder.svg?height=300&width=500",
+      demoLink: "#",
+      githubLink: "#",
+      tags: ["Drupal", "Theming", "Responsive Design", "SEO"],
+    },
+    {
+      title: "Drupal Theme Library",
+      description:
+        "Created a reusable set of professional Drupal themes like Charity Pro, Elastic Lite, and Spot Lite for use across business and personal sites.",
+      imageUrl: "/placeholder.svg?height=300&width=500",
+      demoLink: "#",
+      githubLink: "#",
+      tags: ["Drupal", "Pattern Lab", "Component Design", "Atomic Design"],
+    }
   ]
+  // Add more projects as needed
 
   return (
     <section id="projects" className="w-full py-16 md:py-28 lg:py-36 bg-background">

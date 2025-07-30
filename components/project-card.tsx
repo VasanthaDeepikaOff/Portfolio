@@ -15,7 +15,7 @@ interface ProjectCardProps {
 export function ProjectCard({ title, description, imageUrl, demoLink, githubLink, tags }: ProjectCardProps) {
   return (
     <Card className="flex flex-col overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1 border border-primary/20">
-      <div className="relative w-full h-52 overflow-hidden">
+      {/* <div className="relative w-full h-52 overflow-hidden">
         <Image
           src={imageUrl || "/placeholder.svg?height=300&width=500&query=abstract project screenshot"}
           alt={`Screenshot of ${title} project`}
@@ -23,7 +23,7 @@ export function ProjectCard({ title, description, imageUrl, demoLink, githubLink
           objectFit="cover"
           className="rounded-t-xl transition-transform duration-300 hover:scale-105"
         />
-      </div>
+      </div> */}
       <CardHeader className="pb-3 text-left">
         <CardTitle className="text-2xl font-bold text-foreground">{title}</CardTitle>
         <CardDescription className="text-sm text-muted-foreground line-clamp-2">{description}</CardDescription>

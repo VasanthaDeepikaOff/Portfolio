@@ -1,19 +1,28 @@
-import { Code, Layout, Palette, GitBranch, Database, Cloud, Zap, TestTube } from "lucide-react"
+import { Code, Layout, Palette, GitBranch, Database, Cloud, Zap, TestTube, Smartphone, Eye, Gauge, Split, Component } from "lucide-react"
 
 export function SkillsSection() {
   const skills = [
+    { name: "HTML5 & CSS3", icon: <Palette className="h-8 w-8 text-primary" /> },
+    { name: "JavaScript (ES6+)", icon: <Code className="h-8 w-8 text-primary" /> },
+    { name: "SCSS / Sass", icon: <Palette className="h-8 w-8 text-primary" /> },
+    { name: "jQuery", icon: <Code className="h-8 w-8 text-primary" /> },
     { name: "React", icon: <Code className="h-8 w-8 text-primary" /> },
     { name: "Next.js", icon: <Layout className="h-8 w-8 text-primary" /> },
-    { name: "TypeScript", icon: <Code className="h-8 w-8 text-primary" /> },
-    { name: "JavaScript (ES6+)", icon: <Code className="h-8 w-8 text-primary" /> },
     { name: "Tailwind CSS", icon: <Palette className="h-8 w-8 text-primary" /> },
-    { name: "HTML5 & CSS3", icon: <Palette className="h-8 w-8 text-primary" /> },
-    { name: "Git & GitHub", icon: <GitBranch className="h-8 w-8 text-primary" /> },
-    { name: "RESTful APIs", icon: <Zap className="h-8 w-8 text-primary" /> },
+    { name: "Bootstrap", icon: <Palette className="h-8 w-8 text-primary" /> },
+    { name: "Drupal (Theming & Site Building)", icon: <Layout className="h-8 w-8 text-primary" /> },
     { name: "GraphQL", icon: <Zap className="h-8 w-8 text-primary" /> },
-    { name: "SQL/NoSQL", icon: <Database className="h-8 w-8 text-primary" /> },
-    { name: "AWS/Vercel", icon: <Cloud className="h-8 w-8 text-primary" /> },
     { name: "Unit Testing", icon: <TestTube className="h-8 w-8 text-primary" /> },
+    { name: "Git & GitHub/GitLab", icon: <GitBranch className="h-8 w-8 text-primary" /> },
+    { name: "Gulp & Webpack", icon: <Zap className="h-8 w-8 text-primary" /> },
+    { name: "Figma", icon: <Layout className="h-8 w-8 text-primary" /> },
+    { name: "DDEV / Docker / Lando", icon: <Cloud className="h-8 w-8 text-primary" /> },
+    { name: "Web Accessibility (WCAG)", icon: <Eye className="h-8 w-8 text-primary" /> },
+    { name: "Site Performance Optimization", icon: <Gauge className="h-8 w-8 text-primary" /> },
+    { name: "Responsive Design", icon: <Smartphone className="h-8 w-8 text-primary" /> },
+    { name: "Drupal Decoupled (Next.js)", icon: <Split className="h-8 w-8 text-primary" /> },
+    { name: "Atomic Design Methodology", icon: <Component className="h-8 w-8 text-primary" /> },
+
   ]
 
   return (

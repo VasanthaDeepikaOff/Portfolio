@@ -5,24 +5,28 @@ import Link from "next/link"
 export function BlogSection() {
   const blogPosts = [
     {
-      title: "Optimizing React Performance with Memoization",
-      description: "A deep dive into `React.memo`, `useMemo`, and `useCallback` for improving application speed.",
-      date: "July 15, 2024",
-      link: "#",
+      title: "Mastering CSS Container Queries: A New Era of Responsive Design",
+      description:
+        "Explore how container queries empower component-level responsiveness, eliminating the reliance on global breakpoints.",
+      date: "July 30, 2025",
+      link: "https://dev.to/vasanthadeepikaoff/mastering-css-container-queries-a-new-era-of-responsive-design-17o2",
     },
     {
-      title: "Getting Started with Next.js Server Components",
-      description: "An introduction to the new paradigm of Server Components in Next.js 13+ and their benefits.",
-      date: "June 28, 2024",
-      link: "#",
+      title: "Seamless Headless Drupal Integration with Next.js 15 (App Router)",
+      description:
+        "Learn how to integrate Drupal as a headless CMS with Next.js 15 using App Router and GraphQL for a decoupled architecture.",
+      date: "March 24, 2025",
+      link: "https://dev.to/vasanthadeepikaoff/seamless-headless-drupal-integration-with-nextjs-15-boost-performance-40f3",
     },
     {
-      title: "Building Accessible Forms in Web Applications",
-      description: "Best practices and techniques for creating inclusive and accessible forms for all users.",
-      date: "May 10, 2024",
-      link: "#",
+      title: "Core Web Vitals: What They Are & How to Improve Your Site’s Performance",
+      description:
+        "Understand Google's Core Web Vitals and implement strategies to enhance performance and user experience.",
+      date: "February 18, 2025",
+      link: "https://dev.to/vasanthadeepikaoff/core-web-vitals-what-they-are-how-to-improve-your-sites-performance-3j42",
     },
   ]
+
 
   return (
     <section id="blog" className="w-full py-16 md:py-28 lg:py-36 bg-primary/10">

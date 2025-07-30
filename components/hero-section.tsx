@@ -24,8 +24,8 @@ export function HeroSection() {
             Hi, I'm <div className="text-primary drop-shadow-lg">Vasantha Deepika</div>
           </h1>
           <p className="text-xl md:text-2xl text-foreground/80 max-w-2xl mx-auto">
-            A <span className="font-semibold text-primary">seasoned Frontend Developer</span> with 6+ years of
-            experience building robust, scalable, and user-friendly web applications. I specialize in React, Next.js,
+            A <span className="font-semibold text-primary">Experienced Frontend Developer</span> with 6+ years of
+            experience building robust, scalable, and user-friendly web applications. I specialize in Drpal theming & Site-building, Next.js,
             and modern web technologies.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6 pt-4">

@@ -36,7 +36,7 @@ export function ContactSection() {
             <h3 className="text-3xl font-bold text-foreground mb-6">Find Me Online</h3>
             <div className="flex flex-col gap-6 w-full max-w-xs">
               <Button asChild size="lg" className="h-14 text-lg font-semibold bg-primary hover:bg-primary/90 shadow-md">
-                <Link href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/VasanthaDeepikaOff/" target="_blank" rel="noopener noreferrer">
                   <Github className="h-6 w-6 mr-3" /> GitHub
                 </Link>
               </Button>
@@ -45,7 +45,7 @@ export function ContactSection() {
                 size="lg"
                 className="h-14 text-lg font-semibold bg-secondary hover:bg-secondary/90 shadow-md"
               >
-                <Link href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/vasanth-deepika/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-6 w-6 mr-3" /> LinkedIn
                 </Link>
               </Button>
@@ -55,8 +55,8 @@ export function ContactSection() {
                 variant="outline"
                 className="h-14 text-lg font-semibold border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300 bg-transparent"
               >
-                <Link href="https://dribbble.com/your-dribbble" target="_blank" rel="noopener noreferrer">
-                  <Dribbble className="h-6 w-6 mr-3" /> Dribbble (or Drupal)
+                <Link href="https://www.drupal.org/u/vasantha-deepika" target="_blank" rel="noopener noreferrer">
+                  <Dribbble className="h-6 w-6 mr-3" />  Drupal
                 </Link>
               </Button>
             </div>
