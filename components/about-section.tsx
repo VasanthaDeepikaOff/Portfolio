@@ -36,8 +36,8 @@ export function AboutSection() {
     <section id="about" className="w-full py-16 md:py-28 lg:py-36 bg-background">
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-          <div className="space-y-6">
-            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-primary">About Me</h2>
+          <div className="space-y-6 order-2 lg:order-1 text-center lg:text-left">
+            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-primary text-center lg:text-left">About Me</h2>
             <p className="text-lg md:text-xl text-foreground/80 leading-relaxed">
               With over <span className="font-semibold text-primary">6 years of experience</span> building responsive, accessible, and user-centric web applications. My journey spans across custom web development, <span className="font-medium text-foreground">Drupal site building and theming, and decoupled architectures using Next.js</span>.
             </p>
@@ -48,7 +48,7 @@ export function AboutSection() {
               I enjoy solving complex UI challenges, collaborating with cross-functional teams, and mentoring peers. I believe in continuous learning, and I'm always keen to explore evolving frontend ecosystems and AI-assisted development workflows.
             </p>
           </div>
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end order-1 lg:order-2">
             <img
               src="/VasanthaDeepika.jpg?height=550&width=550"
               width={550}
