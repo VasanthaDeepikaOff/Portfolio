@@ -19,7 +19,7 @@ export function BlogSection() {
       link: "https://dev.to/vasanthadeepikaoff/seamless-headless-drupal-integration-with-nextjs-15-boost-performance-40f3",
     },
     {
-      title: "Core Web Vitals: What They Are & How to Improve Your Site’s Performance",
+      title: "Core Web Vitals: What They Are & How to Improve Your Site's Performance",
       description:
         "Understand Google's Core Web Vitals and implement strategies to enhance performance and user experience.",
       date: "February 18, 2025",
@@ -32,7 +32,7 @@ export function BlogSection() {
     <section id="blog" className="w-full py-16 md:py-28 lg:py-36 bg-primary/10">
       <div className="container px-4 md:px-6 text-center">
         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-12 text-foreground">
-          Latest Blog Posts
+          Latest Blogs
         </h2>
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post, index) => (
@@ -45,7 +45,7 @@ export function BlogSection() {
             size="lg"
             className="px-8 py-3 text-lg font-semibold bg-secondary hover:bg-secondary/90 shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            <Link href="#">View All Posts</Link>
+            <Link href="/blogs" target="_blank">View All Blogs</Link>
           </Button>
         </div>
       </div>

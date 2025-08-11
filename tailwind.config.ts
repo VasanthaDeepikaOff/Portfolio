@@ -26,11 +26,14 @@ const config: Config = {
         background: "hsl(0 0% 100%)", // Light background
         foreground: "hsl(222.2 84% 4.9%)", // Dark text
         primary: {
-          DEFAULT: "hsl(180 100% 35%)", // Vibrant Teal
+          // DEFAULT: "hsl(180 100% 35%)", // Vibrant Teal
+          DEFAULT: "#eb881f",
+          // DEFAULT: "#a70484", // Vibrant Teal, slightly adjusted for better contrast
           foreground: "hsl(0 0% 100%)", // White text on primary
         },
         secondary: {
-          DEFAULT: "hsl(260 100% 70%)", // Soft Purple/Magenta
+          // DEFAULT: "hsl(260 100% 70%)", // Soft Purple/Magenta
+          DEFAULT: "#1ab151",
           foreground: "hsl(0 0% 100%)",
         },
         accent: {

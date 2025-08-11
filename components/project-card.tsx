@@ -40,7 +40,7 @@ export function ProjectCard({ title, description, imageUrl, demoLink, githubLink
           ))}
         </div>
       </CardContent>
-      <CardFooter className="flex justify-end gap-3 pt-0">
+      {/* <CardFooter className="flex justify-end gap-3 pt-0">
         {demoLink && (
           <Button
             asChild
@@ -60,7 +60,7 @@ export function ProjectCard({ title, description, imageUrl, demoLink, githubLink
             </Link>
           </Button>
         )}
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   )
 }

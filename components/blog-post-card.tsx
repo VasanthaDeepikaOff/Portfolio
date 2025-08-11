@@ -19,9 +19,9 @@ export function BlogPostCard({ title, description, date, link }: BlogPostCardPro
       <CardContent className="flex-grow">
         <p className="text-base text-foreground/80 line-clamp-3">{description}</p>
       </CardContent>
-      <CardFooter className="flex justify-end pt-0">
+      <CardFooter className="flex justify-center pt-0">
         <Button asChild variant="link" className="px-0 text-secondary hover:text-secondary/80">
-          <Link href={link}>Read More</Link>
+          <Link href={link} target="_blank" rel="noopener noreferrer" className="font-bold">Read More</Link>
         </Button>
       </CardFooter>
     </Card>

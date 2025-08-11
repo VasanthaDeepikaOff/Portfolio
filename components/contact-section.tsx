@@ -7,7 +7,7 @@ export function ContactSection() {
     <section id="contact" className="w-full py-16 md:py-28 lg:py-36 bg-background">
       <div className="container px-4 md:px-6 text-center">
         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-12 text-primary">Get in Touch</h2>
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 max-w-5xl mx-auto items-center">
+        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 mx-auto items-center">
           <div className="space-y-8 text-left">
             <p className="text-lg md:text-xl text-foreground/80 leading-relaxed">
               I'm always open to discussing new opportunities, collaborations, or just connecting with fellow

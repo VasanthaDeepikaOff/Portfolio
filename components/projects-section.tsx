@@ -9,7 +9,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Next.js", "GraphQL", "Drupal", "Tailwind CSS", "Decoupled Architecture"],
+      tags: ["Next.js", "GraphQL", "Drupal 11", "Tailwind CSS", "Decoupled Architecture"],
     },
     {
       title: "Nicotinell Websites",
@@ -18,7 +18,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Twig", "Tailwind CSS", "Accessibility", "Responsive Design"],
+      tags: ["Drupal 10", "Theming", "Accessibility", "Responsive Design"],
     },
     {
       title: "NASDAQ Local Navigation",
@@ -27,7 +27,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "JavaScript", "Atomic Design", "Accessibility", "Site Studio"],
+      tags: ["Drupal 10", "JavaScript", "Atomic Design", "Accessibility", "Site Studio"],
     },
     {
       title: "Apex Tools E-commerce Platform",
@@ -36,7 +36,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Twig", "SCSS", "Commerce", "Role-Based Access"],
+      tags: ["Drupal 10", "Atomic Design", "SDC", "SCSS", "Commerce", "Role-Based Access"],
     },
     {
       title: "ICTSI Digital Platform",
@@ -45,7 +45,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Performance Optimization", "JavaScript", "Responsive UI"],
+      tags: ["Drupal 8", "Performance Optimization", "JavaScript", "Responsive UI"],
     },
     {
       title: "CARIN Business Media Site",
@@ -54,7 +54,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Twig", "Theming", "Responsive Design"],
+      tags: ["Drupal 9", "Twig", "Theming", "Responsive Design"],
     },
     {
       title: "Devanga Kula Matrimony",
@@ -63,7 +63,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Custom Theme", "Multilingual", "Responsive UI"],
+      tags: ["Drupal 9", "Custom Theme", "Multilingual", "Responsive UI"],
     },
     {
       title: "Sinter Machines",
@@ -72,7 +72,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Theming", "Responsive Design", "SEO"],
+      tags: ["Drupal 8", "Theming", "Responsive Design", "SEO"],
     },
     {
       title: "Drupal Theme Library",
@@ -81,7 +81,7 @@ export function ProjectsSection() {
       imageUrl: "/placeholder.svg?height=300&width=500",
       demoLink: "#",
       githubLink: "#",
-      tags: ["Drupal", "Pattern Lab", "Component Design", "Atomic Design"],
+      tags: ["Drupal 8, 9 & 10", "Pattern Lab", "Component Design", "Atomic Design"],
     }
   ]
   // Add more projects as needed
